@@ -183,9 +183,9 @@ super + ctrl {1-9}
   bspc node -d {1-9}
 
 # Cycle focus through nodes.
-ctrl + shift + Tab
-	bspc node -f next.local.!hidden.window
-
+#ctrl + shift + Tab
+#	bspc node -f next.local.!hidden.window
+    
 # Swap Nodes
 ctrl + shift + {Left,Down,Up,Right}
 	bspc node -s {west,south,north,east}.local
