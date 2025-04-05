@@ -29,6 +29,10 @@ ctrl + alt + s
 alt + @space
 	RiceSelector
 
+# Screen Locker
+alt + Escape
+    ScreenLocker
+
 # ----- Your Apps ----- #
 
 # Apps (browser, editor, filemanager)
