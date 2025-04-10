@@ -31,24 +31,24 @@ arch_icon="#0f94d2"
 # Bspwm options
 BORDER_WIDTH="0"		# Bspwm border
 TOP_PADDING="47"
-BOTTOM_PADDING="47"
+BOTTOM_PADDING="0"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
 NORMAL_BC="#0d0c0c"		# Normal border color
 FOCUSED_BC="#938AA9"	# Focused border color
 
 # Terminal font & size
-term_font_size="10"
+term_font_size="8"
 term_font_name="JetBrainsMono Nerd Font"
 
 # Picom options
-P_FADE="true"			# Fade true|false
+P_FADE="false"			# Fade true|false
 P_SHADOWS="true"		# Shadows true|false
 SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="6"			# Corner radius (0 = disabled)
+P_CORNER_R="0"			# Corner radius (0 = disabled)
 P_BLUR="false"			# Blur true|false
-P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="0.98"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_ANIMATIONS="#"		# (@ = enable) (# = disable)
+P_TERM_OPACITY="0.85"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(20, 60)'

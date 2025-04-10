@@ -64,7 +64,8 @@ case $NUM_MONITORS in
 
         # Set position ABOVE monitor 1
         xrandr --output "$monitor_2" --mode "${info_monitor_2[0]}" \
-            --rate "${info_monitor_2[1]}" --pos 0x-${height_monitor_1} --auto  # Negative y-coordinate
+            --rate "120" --pos 0x-${height_monitor_1} --auto  # Negative y-coordinate
+            # --rate "${info_monitor_2[1]}" --pos 0x-${height_monitor_1} --auto  # Negative y-coordinate
 
         # Workspaces
         bspc monitor "$monitor_1" -d 1 2 3 4 
