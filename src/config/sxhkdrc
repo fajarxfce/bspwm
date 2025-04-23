@@ -184,15 +184,15 @@ super + ctrl + {Left,Right}
 
 # Send focused window to another workspace
 super + ctrl {1-9}
-  bspc node -d {1-9}
+  bspc node -d {1-9} '--follow'
 
 # Cycle focus through nodes.
 #ctrl + shift + Tab
 #	bspc node -f next.local.!hidden.window
     
 # Swap Nodes
-ctrl + shift + {Left,Down,Up,Right}
-	bspc node -s {west,south,north,east}.local
+#ctrl + shift + {Left,Down,Up,Right}
+#	bspc node -s {west,south,north,east}.local
 
 # Focus the last node/desktop
 ctrl + shift {comma,period}
