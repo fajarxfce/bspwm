@@ -38,17 +38,17 @@ NORMAL_BC="#b8bfe5"		# Normal border color
 FOCUSED_BC="#7560d3"	# Focused border color
 
 # Terminal font & size
-term_font_size="10"
+term_font_size="8"
 term_font_name="JetBrainsMono Nerd Font"
 
 # Picom options
-P_FADE="true"			# Fade true|false
+P_FADE="false"			# Fade true|false
 P_SHADOWS="true"		# Shadows true|false
 SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="6"			# Corner radius (0 = disabled)
+P_CORNER_R="0"			# Corner radius (0 = disabled)
 P_BLUR="false"			# Blur true|false
-P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_ANIMATIONS="#"		# (@ = enable) (# = disable)
+P_TERM_OPACITY="0.85"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(0, 10)'

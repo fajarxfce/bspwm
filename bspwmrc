@@ -79,3 +79,9 @@ pidof -q clipcatd || { clipcatd & }
 pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & }
 
 # End one time code
+
+# Atur idle ke 10 menit (600 detik)
+xset s 600 dpms 600 600
+
+# Jalankan xss-lock untuk auto-suspend
+xss-lock -- systemctl suspend &
