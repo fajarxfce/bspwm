@@ -31,7 +31,7 @@ arch_icon="#0f94d2"
 # Bspwm options
 BORDER_WIDTH="0"		# Bspwm border
 TOP_PADDING="1"
-BOTTOM_PADDING="40"
+BOTTOM_PADDING="1"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
 NORMAL_BC="#b8bfe5"		# Normal border color
