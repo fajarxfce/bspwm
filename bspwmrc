@@ -23,9 +23,18 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 MonitorSetup
 #xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x1080 --output HDMI-1-0 --mode 1920x1080 --pos 0x0
 
+xinput set-prop 13 "libinput Tapping Enabled" 1
+xinput set-prop 13 "libinput Natural Scrolling Enabled" 1
+xinput set-prop 13 "libinput Accel Speed" 0.4
+
+
 xinput set-prop 14 "libinput Tapping Enabled" 1
 xinput set-prop 14 "libinput Natural Scrolling Enabled" 1
-xinput set-prop 14 "libinput Accel Speed" 0.2
+xinput set-prop 14 "libinput Accel Speed" 0.4
+
+xinput set-prop 15 "libinput Tapping Enabled" 1
+xinput set-prop 15 "libinput Natural Scrolling Enabled" 1
+xinput set-prop 15 "libinput Accel Speed" 0.4
 
 #  ╔╗ ╔═╗╔═╗╦ ╦╔╦╗  ╔═╗╔═╗╔╗╔╔═╗╦╔═╗
 #  ╠╩╗╚═╗╠═╝║║║║║║  ║  ║ ║║║║╠╣ ║║ ╦
